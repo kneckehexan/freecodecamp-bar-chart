@@ -1,0 +1,32 @@
+.jaysonn {
+  color: black;
+}
+
+#title {
+  text-align: center;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  padding: 2px;
+  font: 0.9em;
+  background-color: aqua;
+  box-shadow: 2px 2px 5px;
+  pointer-events: none;
+}
+
+.toolTipContainer {
+  position: absolute;
+  background: #fff;
+  pointer-events: none;
+}
+
+.bar:hover {
+  fill: #fff;
+}
